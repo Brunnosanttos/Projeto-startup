@@ -44,7 +44,7 @@ h3 {
 }
 
 li:hover {
-    background-image: linear-gradient(to top, rgb(62, 80, 247), rgb(26, 40, 122));
+    background: linear-gradient(to top, rgb(62, 80, 247), rgb(26, 40, 122));
     cursor: pointer;
     transform: translate(10px, -10px);
     box-shadow: -10px 10px 16px rgb(34, 34, 34);
@@ -70,5 +70,3 @@ li:hover {
     border: 2px solid #000;
     border-radius: 8%;
 }
-
-.imagem.imagem1

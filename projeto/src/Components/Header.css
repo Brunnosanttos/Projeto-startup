@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-size: cover;
+    color: white;
+    background-image: url(https://img2.wallspic.com/previews/0/6/0/3/4/143060/143060-blue-color-light-sky-azure-x750.jpg);
+  }
+  
+  .logo-container {
+    margin-right: px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .logo:hover {
+    cursor: pointer;
+  }
+  
+  .project-name {
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h4 {
+    margin-top: -15px;
+  }
+  

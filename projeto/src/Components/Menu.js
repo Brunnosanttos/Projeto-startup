@@ -1,6 +1,6 @@
 import React from 'react';
 import './Menu.css';
-import SearchBar from './SearchBar';
+
 const Menu = () => {
   return (
     <nav className="menu-container">
@@ -10,7 +10,6 @@ const Menu = () => {
         <li><a href="#">Login</a></li>
         <li><a href="#">Cadastre-se</a></li>
       </ul>
-      <SearchBar/>
     </nav>
   );
 }
