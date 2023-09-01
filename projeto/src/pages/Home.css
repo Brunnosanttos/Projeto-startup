@@ -1,0 +1,74 @@
+.Container {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(180deg, #110020 0%, #3E0073 73.44%, #110020 100%);
+    box-shadow: 0px -8px 122px 0px rgba(62, 0, 115, 0.45);
+    width: auto;
+    height: auto;
+}
+  
+h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+  
+ul {
+    list-style: none;
+    padding: 0;
+}
+  
+li {
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    color:#ffffff;
+}
+ 
+h3 {
+    margin: 0;
+    cursor: auto;
+}
+
+.local {
+    cursor: auto;
+    text-align: left;
+    margin-bottom: -15px;
+}
+
+.data {
+    cursor: auto;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+li:hover {
+    background: linear-gradient(to top, rgb(62, 80, 247), rgb(26, 40, 122));
+    cursor: pointer;
+    transform: translate(10px, -10px);
+    box-shadow: -10px 10px 16px rgb(34, 34, 34);
+}
+
+.imagem {
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+.imagem.imagem1 {
+    background-image: url("../midia/ratinho.jpg");
+    border: 2px solid #000;
+    border-radius: 8%;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center ;
+}
+
+.imagem.imagem2 {
+    background-image: url("../midia/logoprojeto.jpg");
+    border: 2px solid #000;
+    border-radius: 8%;
+    background-size: cover;
+}

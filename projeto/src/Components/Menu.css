@@ -1,4 +1,9 @@
-.menu { 
+.menu-container {
+  justify-content: left;
+  display: flex;
+}
+
+.menu {
     display: flex;
     list-style: none; 
     padding: 0; 
