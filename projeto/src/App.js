@@ -1,7 +1,12 @@
 import React, { useState } from 'react';
 import './App.css';
-import Home from './pages/Home';
+import Home from './pages/Home/Home';
 import Header from './Components/Header';
+import Login from './pages/Login/Login';
+import Contato from './pages/Contato/Contato';
+import QuemSomos from './pages/QuemSomos/QuemSomos';
+import Cadastro from './pages/Cadastro/Cadastro';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   const [hobbies, setHobbies] = useState([
@@ -15,10 +20,18 @@ function App() {
   ]);
 
   return (
-    <div className="Container">
-      <Header/>
-      <Home hobbies={hobbies}/>
-    </div>
+    <Router>
+      <div className="Container">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home hobbies={hobbies} />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/Contato" element={<Contato />} />
+          <Route path="/QuemSomos" element={<QuemSomos />} />
+          <Route path="/Cadastro" element={<Cadastro />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

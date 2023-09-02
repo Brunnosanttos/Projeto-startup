@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
-import Menu from '../Components/Menu';
-import Barrapesquisar from '../Components/BarraPesquisar';
+import Menu from '../../Components/Menu';
+import Barrapesquisar from '../../Components/BarraPesquisar';
 
 const Home = ({ hobbies }) => {
   return (
