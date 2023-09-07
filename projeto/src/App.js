@@ -24,7 +24,7 @@ function App() {
       <div className="Container">
         <Header />
         <Routes>
-          <Route path="/" element={<Home hobbies={hobbies} />} />
+          <Route path="/" element={<Home hobbies={hobbies} />}/>
           <Route path="/login" element={<Login />} />
           <Route path="/Contato" element={<Contato />} />
           <Route path="/QuemSomos" element={<QuemSomos />} />

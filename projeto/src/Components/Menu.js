@@ -4,15 +4,16 @@ import '../pages/Login/Login'
 import '../pages/Contato/Contato'
 import '../pages/Cadastro/Cadastro'
 import '../pages/QuemSomos/QuemSomos'
+import {Link} from "react-router-dom";
 
 const Menu = () => {
   return (
     <nav className="menu-container">
       <ul className="menu">
-        <li><a href="../pages/QuemSomos/QuemSomos">Quem Somos</a></li>
-        <li><a href="../pages/Contato/Contato">Contato</a></li>
-        <li><a href="../pages/Login/Login">Login</a></li>
-        <li><a href="../pages/Cadastro/Cadastro">Cadastre-se</a></li>
+        <li><Link to="/QuemSomos">Quem Somos</Link></li>
+        <li><Link to="/Contato">Contato</Link></li>
+        <li><Link to="Login">Login</Link></li>
+        <li><Link to="Cadastro">Cadastre-se</Link></li>
       </ul>
     </nav>
   );

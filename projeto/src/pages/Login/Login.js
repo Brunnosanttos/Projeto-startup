@@ -1,9 +1,10 @@
 import React from 'react'
+import Menu from '../../Components/Menu'
 
 const Login = () => {
   return (
-    <div className="Container">
-      <h1>gg</h1>
+    <div> 
+      <Menu/>
     </div>
   )
 }

@@ -1,8 +1,11 @@
 import React from 'react'
+import Menu from '../../Components/Menu'
 
 const Cadastro = () => {
   return (
-    <div>Cadastro</div>
+    <div>
+      <Menu/>
+    </div>
   )
 }
 

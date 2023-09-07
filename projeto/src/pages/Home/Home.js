@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
-import Menu from '../../Components/Menu';
 import Barrapesquisar from '../../Components/BarraPesquisar';
+import Menu from '../../Components/Menu';
 
 const Home = ({ hobbies }) => {
   return (
@@ -14,7 +14,7 @@ const Home = ({ hobbies }) => {
           <li key={hobby.id}>
             <h3>{hobby.name}</h3>
             <div className="imagem-container">
-            <div className={`imagem ${hobby.imagem}`}></div>
+              <div className={`imagem ${hobby.imagem}`}></div>
             </div>
             <p className="local"> Local: {hobby.local}-PE</p>
             <br></br>

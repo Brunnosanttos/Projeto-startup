@@ -1,8 +1,11 @@
 import React from 'react'
+import Menu from '../../Components/Menu'
 
 const QuemSomos = () => {
   return (
-    <div>QuemSomos</div>
+    <div>
+      <Menu/>
+    </div>
   )
 }
 

@@ -1,8 +1,11 @@
 import React from 'react'
+import Menu from '../../Components/Menu'
 
 const Contato = () => {
   return (
-    <div>Contato</div>
+    <div>
+      <Menu/>
+    </div>
   )
 }
 
